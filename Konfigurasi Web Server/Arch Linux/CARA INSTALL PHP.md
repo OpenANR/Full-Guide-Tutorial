@@ -10,7 +10,7 @@ Berikut langkah-langkah menginstall PHP di Arch Linux:
 1. Pertama, install paket PHP dengan mengetikkan perintah berikut :
 
 ```bash
-sudo pacman -S php
+sudo pacman -S php php-gd
 ```
 _**Catatan :** Secara bawaan, versi PHP yang terinstall di Arch Linux adalah versi terbaru. Versi PHP terbaru saat ini adalah 8.5_
 
