@@ -36,7 +36,7 @@
     --code-inline-color: #ea580c;
 }
 
-body.dark-theme {
+.dark-theme {
     /* Theme Variables - Dark Mode */
     --bg-primary: #090d16;
     --bg-sidebar: #0f172a;
@@ -186,14 +186,14 @@ body {
     display: block;
 }
 
-body.dark-theme .sun-icon {
+.dark-theme .sun-icon {
     display: block;
 }
-body.dark-theme .moon-icon {
+.dark-theme .moon-icon {
     display: none;
 }
 
-body.dark-theme .theme-btn:hover svg {
+.dark-theme .theme-btn:hover svg {
     transform: rotate(45deg);
 }
 
@@ -482,7 +482,7 @@ body.dark-theme .theme-btn:hover svg {
     background-color: rgba(0, 0, 0, 0.02);
 }
 
-body.dark-theme #content-display tr:nth-child(even) {
+.dark-theme #content-display tr:nth-child(even) {
     background-color: rgba(255, 255, 255, 0.02);
 }
 

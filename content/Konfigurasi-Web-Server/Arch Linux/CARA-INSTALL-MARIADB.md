@@ -34,7 +34,7 @@ sudo systemctl status mariadb
 ```
 Jika statusnya `active (running)` berarti berhasil seperti contoh gambar di bawah ini:
 
-![Status layanan MariaDB](Gambar/mariadb_status.png)
+![Status layanan MariaDB](images/mariadb_status.png)
 
 4. Amankan instalasi MariaDB, jika service sudah berhasil berjalan, jalankan skrip keamanan bawaan untuk mengatur password root database:
 

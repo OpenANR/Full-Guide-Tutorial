@@ -16,7 +16,7 @@ sudo pacman -S phpmyadmin
 ## Mengatur Konfigurasi phpMyAdmin
 Setelah instalasi berhasil, jangan lupa untuk mengkonfigurasi phpMyAdmin agar tidak muncul pesan warning seperti pada gambar di bawah ini :
 
-![Pesan warning pada halaman phpMyAdmin](Gambar/warning_phpmyadmin.png)
+![Pesan warning pada halaman phpMyAdmin](images/warning_phpmyadmin.png)
 
 ### 1. Konfigurasi blowfish Secret
 **phpMyAdmin** membutuhkan kunci rahasia sepanjang 32 karakter untuk mengenkripsi cookie sesi Anda agar aman.
@@ -113,9 +113,9 @@ http://localhost:8080
 ```
 3. Login menggunakan username dan password **MariaDB** yang sudah Anda buat sebelumnya. Contohnya seperti pada gambar di bawah ini:
 
-![Login phpMyAdmin](Gambar/login_phpmyadmin.png)
+![Login phpMyAdmin](images/login_phpmyadmin.png)
 
 4. Jika login berhasil, maka akan masuk ke halaman dashboard **phpMyAdmin**:
 
-![Dashboard phpMyAdmin](Gambar/dashboard_phpmyadmin.png)
+![Dashboard phpMyAdmin](images/dashboard_phpmyadmin.png)
 
